@@ -6,7 +6,7 @@ end
 
 class Truck < Car
   def run(distance)
-    sup
+    super
     puts "大きな荷物を乗せて走ります。"
   end
 end
